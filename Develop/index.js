@@ -70,6 +70,11 @@ const questions = [
     name: 'githubUsername',
     message: 'What is your GitHub username?',
   },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email?',
+  },
 ];
 
 
@@ -134,7 +139,8 @@ This project is under licence ${data.license}.
 
 ## Questions
 
-Any Question? GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername}).
+Any Question? GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername})
+[${data.email}]
   `;
 }
 

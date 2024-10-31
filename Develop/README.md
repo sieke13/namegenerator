@@ -1,10 +1,10 @@
 
-# gera
+# readme create
 
-
+![License](https://badgen.net/badge/license/Apache%202.0/blue)
 
 ## Description
-ninguno
+readme create
 
 ## Table of contents
 - [Instalation](#instalation)
@@ -16,10 +16,10 @@ ninguno
 - [Questions](#Questions)
 
 ## Instalation
-ninguno
+https://www.youtube.com/watch?v=UnnTvewn3io
 
 ## Usage
-youtube.com
+https://www.youtube.com/watch?v=UnnTvewn3io
 
 ## Contributing
 https://www.youtube.com/watch?v=UnnTvewn3io
@@ -43,9 +43,10 @@ https://www.youtube.com/watch?v=UnnTvewn3io
 
 ## License
 
-This project is under licence I Dont Have License.
+This project is under licence Apache 2.0.
 
 ## Questions
 
-Any Question? GitHub: [gera](https://github.com/gera).
+Any Question? GitHub: [gerardi](https://github.com/gerardi)
+[gera@gmail.com]
   
