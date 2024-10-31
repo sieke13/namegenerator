@@ -1,10 +1,10 @@
 
-# I dont know
+# Readme Generator
 
-![License](https://img.shields.io/badge/license-GPL%203.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-there is no project oh no
+Generates a readme for github
 
 ## Table of contents
 - [Instalation](#instalation)
@@ -16,36 +16,36 @@ there is no project oh no
 - [Questions](#Questions)
 
 ## Instalation
-run exe file and nothing more
+run index.js
 
 ## Usage
-create a readme?
+creates a readme for github
 
 ## Contributing
-google 
+google
 
 ## Tests
-downloading the packages
+im testing right now
 
 ## Notes
 
-> [!NOTE]
-> a
+> [!Description]
+> true colors
 
 > [!IMPORTANT]
-> test of important info
+> watch your steps
 
 > [!WARNING]
-> warning of usage
+> look out!
 
 > [!TIP]
-> this is a tip
+> check some cool webpages
 
 ## License
 
-This project is under licence GPL 3.0.
+This project is under licence MIT.
 
 ## Questions
 
-Para cualquier pregunta, por favor visita mi perfil de GitHub: [a](https://github.com/a).
+Any Question? GitHub: [gerard](https://github.com/gerard).
   
