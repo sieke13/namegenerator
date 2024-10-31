@@ -1,10 +1,10 @@
 
-# github readme creator
+# generator
 
-![License](https://badgen.net/badge/license/I%20Dont%20Have%20License/blue)
+
 
 ## Description
-creates a readme 
+generator
 
 ## Table of contents
 - [Instalation](#instalation)
@@ -16,13 +16,13 @@ creates a readme
 - [Questions](#Questions)
 
 ## Instalation
-run index.js
+generator
 
 ## Usage
-function generateReadme(data) {
+https://www.youtube.com/
 
 ## Contributing
-tps://badgen.net/badge/license/${encodeURIComponent(data.license)}/blue)`
+https://www.youtube.com/
 
 ## Tests
 https://www.youtube.com/
