@@ -1,7 +1,7 @@
 
-# Readme Gen
+# git readme creator
 
-![License](https://img.shields.io/badge/license-BSD%203-Clause-blue.svg)
+![License](https://badgen.net/badge/license/MIT/blue)
 
 ## Description
 creates a readme for github
@@ -16,36 +16,36 @@ creates a readme for github
 - [Questions](#Questions)
 
 ## Instalation
-run node index.js
+just run index.js
 
 ## Usage
-create a readme
+.
 
 ## Contributing
-https://www.hattrick.org/en-us/
+https://www.youtube.com/
 
 ## Tests
-https://www.hattrick.org/en-us/
+https://www.youtube.com/
 
 ## Notes
 
-> [!DESCRIPTION]
-> https://www.hattrick.org/en-us/
+> [!NOTE]
+> https://www.youtube.com/
 
 > [!IMPORTANT]
-> https://www.hattrick.org/en-us/
+> https://www.youtube.com/
 
 > [!WARNING]
-> https://www.hattrick.org/en-us/
+> https://www.youtube.com/
 
 > [!TIP]
-> https://www.hattrick.org/en-us/
+> https://www.youtube.com/
 
 ## License
 
-This project is under licence BSD 3-Clause.
+This project is under licence MIT.
 
 ## Questions
 
-Any Question? GitHub: [gerardo](https://github.com/gerardo).
+Any Question? GitHub: [gera](https://github.com/gera).
   
