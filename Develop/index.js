@@ -74,8 +74,8 @@ const questions = [
 
 
 function generateReadme(data) {
-   const licenseBadge = data.license !== 'i dont have license'
-    ? `![License](https://img.shields.io/badge/license-${data.license.replace(/ /g, '%20')}-blue.svg)`
+  const licenseBadge = data.license !== 'I don’t have a license'
+    ? `![License](https://badgen.net/badge/license/${encodeURIComponent(data.license)}/blue)`
     : '';
 
   return `
@@ -109,7 +109,7 @@ ${data.tests}
 
 ## Notes
 
-> [!Description]
+> [!NOTE]
 > ${data.note}
 
 > [!IMPORTANT]
