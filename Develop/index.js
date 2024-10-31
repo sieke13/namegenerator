@@ -74,7 +74,7 @@ const questions = [
 
 
 function generateReadme(data) {
-  const licenseBadge = data.license !== 'I don’t have a license'
+  const licenseBadge = data.license !== 'none'
     ? `![License](https://badgen.net/badge/license/${encodeURIComponent(data.license)}/blue)`
     : '';
 

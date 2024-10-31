@@ -1,10 +1,10 @@
 
-# git readme creator
+# github readme creator
 
-![License](https://badgen.net/badge/license/MIT/blue)
+![License](https://badgen.net/badge/license/I%20Dont%20Have%20License/blue)
 
 ## Description
-creates a readme for github
+creates a readme 
 
 ## Table of contents
 - [Instalation](#instalation)
@@ -16,13 +16,13 @@ creates a readme for github
 - [Questions](#Questions)
 
 ## Instalation
-just run index.js
+run index.js
 
 ## Usage
-.
+function generateReadme(data) {
 
 ## Contributing
-https://www.youtube.com/
+tps://badgen.net/badge/license/${encodeURIComponent(data.license)}/blue)`
 
 ## Tests
 https://www.youtube.com/
@@ -43,7 +43,7 @@ https://www.youtube.com/
 
 ## License
 
-This project is under licence MIT.
+This project is under licence I Dont Have License.
 
 ## Questions
 
