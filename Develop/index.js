@@ -1,81 +1,80 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
 
-// Preguntas para generar el README
+
 const questions = [
   {
     type: 'input',
     name: 'projectName',
-    message: '¿Cuál es el nombre de tu proyecto?',
+    message: 'What is the name of the project?',
   },
   {
     type: 'input',
     name: 'description',
-    message: 'Describe brevemente tu proyecto:',
+    message: 'Describe your project:',
   },
   {
     type: 'input',
     name: 'installation',
-    message: '¿Cuáles son los pasos de instalación?',
+    message: 'Installation Steps:',
   },
   {
     type: 'input',
     name: 'usage',
-    message: '¿Cómo se utiliza el proyecto?',
+    message: 'What is the Usage of your project?',
   },
   {
     type: 'input',
     name: 'contributing',
-    message: '¿Cómo pueden contribuir otros al proyecto?',
+    message: 'Contribuidores',
   },
   {
     type: 'input',
     name: 'tests',
-    message: '¿Cómo se pueden correr las pruebas?',
+    message: 'How can you test the app?',
   },
   {
     type: 'input',
     name: 'note',
-    message: '[NOTE] Agrega una nota para los usuarios:',
+    message: '[NOTE] Note for Users:',
   },
   {
     type: 'input',
     name: 'important',
-    message: '[IMPORTANT] Agrega una información importante:',
+    message: '[IMPORTANT] Important information for user:',
   },
   {
     type: 'input',
     name: 'warning',
-    message: '[WARNING] Agrega una advertencia para los usuarios:',
+    message: '[WARNING] Add an advertise for users:',
   },
   {
     type: 'input',
     name: 'tip',
-    message: '[TIP] Agrega un consejo para los usuarios:',
+    message: '[TIP] Add a tip for the users:',
   },
   {
     type: 'list',
     name: 'license',
-    message: '¿Qué tipo de licencia tiene tu proyecto?',
+    message: 'What license use your project?',
     choices: [
       'MIT',
       'Apache 2.0',
       'GPL 3.0',
       'BSD 3-Clause',
-      'No tengo una licencia',
+      'I Dont Have License',
     ],
   },
   {
     type: 'input',
     name: 'githubUsername',
-    message: '¿Cuál es tu nombre de usuario de GitHub?',
+    message: 'What is your GitHub username?',
   },
 ];
 
-// Función para generar el contenido del README
+
 function generateReadme(data) {
-  // Insignia de licencia
-  const licenseBadge = data.license !== 'No tengo una licencia'
+   const licenseBadge = data.license !== 'i dont have license'
     ? `![License](https://img.shields.io/badge/license-${data.license.replace(/ /g, '%20')}-blue.svg)`
     : '';
 
@@ -84,33 +83,33 @@ function generateReadme(data) {
 
 ${licenseBadge}
 
-## Descripción
+## Description
 ${data.description}
 
-## Tabla de Contenidos
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribuyendo](#contribuyendo)
-- [Pruebas](#pruebas)
-- [Notas](#notas)
-- [Licencia](#licencia)
-- [Preguntas](#preguntas)
+## Table of contents
+- [Instalation](#instalation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Notes](#notes)
+- [License](#licence)
+- [Questions](#Questions)
 
-## Instalación
+## Instalation
 ${data.installation}
 
-## Uso
+## Usage
 ${data.usage}
 
-## Contribuyendo
+## Contributing
 ${data.contributing}
 
-## Pruebas
+## Tests
 ${data.tests}
 
-## Notas
+## Notes
 
-> [!NOTE]
+> [!Description]
 > ${data.note}
 
 > [!IMPORTANT]
@@ -122,26 +121,26 @@ ${data.tests}
 > [!TIP]
 > ${data.tip}
 
-## Licencia
+## License
 
-Este proyecto está bajo la licencia ${data.license}.
+This project is under licence ${data.license}.
 
-## Preguntas
+## Questions
 
-Para cualquier pregunta, por favor visita mi perfil de GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername}).
+Any Question? GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername}).
   `;
 }
 
-// Función para inicializar la aplicación
+// Function call to initialize app
 function init() {
   inquirer.prompt(questions).then((answers) => {
     const readmeContent = generateReadme(answers);
 
     fs.writeFile('README.md', readmeContent, (err) => {
       if (err) {
-        console.error('Error al escribir el archivo README.md:', err);
+        console.error('Error Writing README.md:', err);
       } else {
-        console.log('README.md creado con éxito');
+        console.log('README.md Succesfully created!!!');
       }
     });
   });

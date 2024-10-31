@@ -1,51 +1,51 @@
 
-# a
+# I dont know
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-GPL%203.0-blue.svg)
 
-## Descripción
-a
+## Description
+there is no project oh no
 
-## Tabla de Contenidos
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribuyendo](#contribuyendo)
-- [Pruebas](#pruebas)
-- [Notas](#notas)
-- [Licencia](#licencia)
-- [Preguntas](#preguntas)
+## Table of contents
+- [Instalation](#instalation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Notes](#notes)
+- [License](#licence)
+- [Questions](#Questions)
 
-## Instalación
-a
+## Instalation
+run exe file and nothing more
 
-## Uso
-a
+## Usage
+create a readme?
 
-## Contribuyendo
-a
+## Contributing
+google 
 
-## Pruebas
-a
+## Tests
+downloading the packages
 
-## Notas
+## Notes
 
-> [!NOTE]
-> a
+> [!Description]
+> test of note
 
 > [!IMPORTANT]
-> a
+> test of important info
 
 > [!WARNING]
-> a
+> warning of usage
 
 > [!TIP]
-> a
+> this is a tip
 
-## Licencia
+## License
 
-Este proyecto está bajo la licencia MIT.
+This project is under licence GPL 3.0.
 
-## Preguntas
+## Questions
 
-Para cualquier pregunta, por favor visita mi perfil de GitHub: [a](https://github.com/a).
+Any Question? GitHub: [gerardo](https://github.com/gerardo).
   
