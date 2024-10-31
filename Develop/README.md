@@ -1,10 +1,10 @@
 
-# readme create
+# readme creator
 
 ![License](https://badgen.net/badge/license/MIT/blue)
 
 ## Description
-create readme
+https://www.youtube.com/watch?v=UnnTvewn3io
 
 ## Table of contents
 - [Instalation](#instalation)
@@ -47,6 +47,6 @@ This project is under licence MIT.
 
 ## Questions
 
-Any Question? GitHub: [gerardo](https://github.com/gerardo)
-FAKE Mail me! [gera@fakemail.com]
+Any Question? GitHub: [gera](https://github.com/gera)
+FAKE Mail me! [abc@abc.com]
   
