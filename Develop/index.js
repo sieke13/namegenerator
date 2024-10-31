@@ -140,7 +140,7 @@ This project is under licence ${data.license}.
 ## Questions
 
 Any Question? GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername})
-[${data.email}]
+FAKE Mail me! [${data.email}]
   `;
 }
 

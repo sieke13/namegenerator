@@ -1,10 +1,10 @@
 
 # readme create
 
-![License](https://badgen.net/badge/license/Apache%202.0/blue)
+![License](https://badgen.net/badge/license/MIT/blue)
 
 ## Description
-readme create
+create readme
 
 ## Table of contents
 - [Instalation](#instalation)
@@ -43,10 +43,10 @@ https://www.youtube.com/watch?v=UnnTvewn3io
 
 ## License
 
-This project is under licence Apache 2.0.
+This project is under licence MIT.
 
 ## Questions
 
-Any Question? GitHub: [gerardi](https://github.com/gerardi)
-[gera@gmail.com]
+Any Question? GitHub: [gerardo](https://github.com/gerardo)
+FAKE Mail me! [gera@fakemail.com]
   
