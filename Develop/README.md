@@ -29,8 +29,8 @@ downloading the packages
 
 ## Notes
 
-> [!Description]
-> test of note
+> [!NOTE]
+> a
 
 > [!IMPORTANT]
 > test of important info
@@ -47,5 +47,5 @@ This project is under licence GPL 3.0.
 
 ## Questions
 
-Any Question? GitHub: [gerardo](https://github.com/gerardo).
+Para cualquier pregunta, por favor visita mi perfil de GitHub: [a](https://github.com/a).
   
