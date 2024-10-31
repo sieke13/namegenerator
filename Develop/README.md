@@ -1,10 +1,10 @@
 
-# Readme Generator
+# Readme Gen
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-BSD%203-Clause-blue.svg)
 
 ## Description
-Generates a readme for github
+creates a readme for github
 
 ## Table of contents
 - [Instalation](#instalation)
@@ -16,36 +16,36 @@ Generates a readme for github
 - [Questions](#Questions)
 
 ## Instalation
-run index.js
+run node index.js
 
 ## Usage
-creates a readme for github
+create a readme
 
 ## Contributing
-google
+https://www.hattrick.org/en-us/
 
 ## Tests
-im testing right now
+https://www.hattrick.org/en-us/
 
 ## Notes
 
 > [!Description]
-> true colors
+> https://www.hattrick.org/en-us/
 
 > [!IMPORTANT]
-> watch your steps
+> https://www.hattrick.org/en-us/
 
 > [!WARNING]
-> look out!
+> https://www.hattrick.org/en-us/
 
 > [!TIP]
-> check some cool webpages
+> https://www.hattrick.org/en-us/
 
 ## License
 
-This project is under licence MIT.
+This project is under licence BSD 3-Clause.
 
 ## Questions
 
-Any Question? GitHub: [gerard](https://github.com/gerard).
+Any Question? GitHub: [gerardo](https://github.com/gerardo).
   
