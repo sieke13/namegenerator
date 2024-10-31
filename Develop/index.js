@@ -73,10 +73,17 @@ const questions = [
 ];
 
 
+function renderLicenseBadge(license) {
+
+  if (!license || license === 'I Dont Have License') {
+    return '';
+  }
+  
+  return `![License](https://badgen.net/badge/license/${encodeURIComponent(license)}/blue)`;
+}
+
 function generateReadme(data) {
-  const licenseBadge = data.license !== 'I Dont Have License'
-    ? `![License](https://badgen.net/badge/license/${encodeURIComponent(data.license)}/blue)`
-    : '';
+  const licenseBadge = renderLicenseBadge(data.license);
 
   return `
 # ${data.projectName}
