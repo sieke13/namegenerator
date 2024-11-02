@@ -1,10 +1,10 @@
 
-# Readme GEN
+# ReadmeGen
 
 ![License](https://badgen.net/badge/license/MIT/blue)
 
 ## Description
-https://www.youtube.com/watch?v=pKJlLwzuMMQ
+creates a readme automatically
 
 ## Table of contents
 - [Instalation](#instalation)
@@ -16,16 +16,16 @@ https://www.youtube.com/watch?v=pKJlLwzuMMQ
 - [Questions](#Questions)
 
 ## Instalation
-https://www.youtube.com/watch?v=pKJlLwzuMMQ
+run index.js
 
 ## Usage
-https://www.youtube.com/watch?v=pKJlLwzuMMQ
+none
 
 ## Contributing
-https://www.youtube.com/watch?v=pKJlLwzuMMQ
+none
 
 ## Tests
-https://www.youtube.com/watch?v=pKJlLwzuMMQ
+none
 
 ## Notes
 
@@ -47,6 +47,6 @@ This project is under licence MIT.
 
 ## Questions
 
-Any Question? GitHub: [https://www.youtube.com/watch?v=pKJlLwzuMMQ](https://github.com/https://www.youtube.com/watch?v=pKJlLwzuMMQ)
-FAKE Mail me! [https://www.youtube.com/watch?v=pKJlLwzuMMQ]
+Any Question? GitHub: [gerardo](https://github.com/gerardo)
+FAKE Mail me! [fake@123.com]
   

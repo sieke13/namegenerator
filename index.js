@@ -1,7 +1,6 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
 
-
 const questions = [
   {
     type: 'input',
@@ -77,19 +76,15 @@ const questions = [
   },
 ];
 
-
 function renderLicenseBadge(license) {
-
   if (!license || license === 'I Dont Have License') {
     return '';
   }
-  
   return `![License](https://badgen.net/badge/license/${encodeURIComponent(license)}/blue)`;
 }
 
-function generateReadme(data) {
+function generateMarkdown(data) {
   const licenseBadge = renderLicenseBadge(data.license);
-
   return `
 # ${data.projectName}
 
@@ -98,16 +93,16 @@ ${licenseBadge}
 ## Description
 ${data.description}
 
-## Table of contents
-- [Instalation](#instalation)
+## Table of Contents
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Notes](#notes)
-- [License](#licence)
-- [Questions](#Questions)
+- [License](#license)
+- [Questions](#questions)
 
-## Instalation
+## Installation
 ${data.installation}
 
 ## Usage
@@ -134,29 +129,29 @@ ${data.tests}
 > ${data.tip}
 
 ## License
-
-This project is under licence ${data.license}.
+This project is licensed under the ${data.license} license.
 
 ## Questions
-
-Any Question? GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername})
-FAKE Mail me! [${data.email}]
-  `;
+For any questions, reach out via GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername})  
+Or send an email to: [${data.email}]
+`;
 }
 
-// Function call to initialize app
+// Function to initialize the app
 function init() {
   inquirer.prompt(questions).then((answers) => {
-    const readmeContent = generateReadme(answers);
+    const readmeContent = generateMarkdown(answers);
 
     fs.writeFile('README.md', readmeContent, (err) => {
       if (err) {
         console.error('Error Writing README.md:', err);
       } else {
-        console.log('README.md Succesfully created!!!');
+        console.log('README.md successfully created!');
       }
     });
   });
 }
 
 init();
+
+export default generateMarkdown;
