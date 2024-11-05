@@ -1,10 +1,10 @@
 
-# Readme Generator for Github
+# Readme Generator
 
 ![License](https://badgen.net/badge/license/MIT/blue)
 
 ## Description
-auto generates readme file whit your awnsers
+generates a professional readme for github
 
 ## Table of Contents
 - [Installation](#installation)
@@ -19,31 +19,31 @@ auto generates readme file whit your awnsers
 run node index.js
 
 ## Usage
-creates a readme 
+creates a professional readme for github
 
 ## Contributing
-google
+google youtube my teachers
 
 ## Tests
-watch the video walkthrough
+run index.js
 
 ## Notes
 
 > [!NOTE]
-> > https://www.youtube.com/watch?v=e5MMECGWT-0
+> watch the walkthrough video
 
 > [!IMPORTANT]
-> check the walkthrough video
+> https://www.youtube.com/watch?v=e5MMECGWT-0
 
 > [!WARNING]
-> none
+> .
 
 > [!TIP]
-> none
+> https://www.youtube.com/watch?v=e5MMECGWT-0
 
 ## License
 This project is licensed under the MIT license.
 
 ## Questions
-For any questions, reach out via GitHub: [sieke13](https://github.com/sieke13)  
+For any questions, reach out via GitHub: [Sieke13](https://github.com/Sieke13)  
 Or send an email to: [gera.ave2@gmail.com]
