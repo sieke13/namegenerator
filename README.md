@@ -1,52 +1,49 @@
 
-# ReadmeGen
+# Readme Generator
 
 ![License](https://badgen.net/badge/license/MIT/blue)
 
 ## Description
-creates a readme automatically
+creates a readme automatically for github
 
-## Table of contents
-- [Instalation](#instalation)
+## Table of Contents
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Notes](#notes)
-- [License](#licence)
-- [Questions](#Questions)
+- [License](#license)
+- [Questions](#questions)
 
-## Instalation
-run index.js
+## Installation
+run node index.js
 
 ## Usage
-none
+make easier to publish a profesional readme
 
 ## Contributing
-none
+google youtube my teachers
 
 ## Tests
-none
+runing index.js
 
 ## Notes
 
 > [!NOTE]
-> https://www.youtube.com/watch?v=pKJlLwzuMMQ
+> view the video walkthrough
 
 > [!IMPORTANT]
-> https://www.youtube.com/watch?v=pKJlLwzuMMQ
+> https://www.youtube.com/watch?v=Mxc-SYFQkgw
 
 > [!WARNING]
-> https://www.youtube.com/watch?v=pKJlLwzuMMQ
+> .
 
 > [!TIP]
-> https://www.youtube.com/watch?v=pKJlLwzuMMQ
+> check the video
 
 ## License
-
-This project is under licence MIT.
+This project is licensed under the MIT license.
 
 ## Questions
-
-Any Question? GitHub: [gerardo](https://github.com/gerardo)
-FAKE Mail me! [fake@123.com]
-  
+For any questions, reach out via GitHub: [sieke13](https://github.com/sieke13)  
+Or send an email to: [gera.ave2@gmail.com]
